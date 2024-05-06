@@ -3,6 +3,7 @@ import unittest
 from models.record import Record
 from models.wallet import Wallet
 
+
 class TestRecord(unittest.TestCase):
     def test_record_creation(self):
         record = Record("2023-02-02", "income", 1000.0, "Salary")

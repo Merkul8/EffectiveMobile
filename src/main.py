@@ -3,6 +3,7 @@ from models.wallet import Wallet
 
 
 def main():
+    # Запуск приложения.
     wallet = Wallet('finances.txt')
     while True:
         print("---------------------")
