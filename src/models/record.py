@@ -9,5 +9,5 @@ class Record:
         self.amount: int = amount
         self.description: str = description
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"Date: {self.date}; Category: {self.category}; Amount: {self.amount}; Description: {self.description}"
